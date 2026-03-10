@@ -22,6 +22,7 @@ public class ProjetoBiblioteca {
             System.out.println("2 - Remova um livro");
             System.out.println("3 - Ver quantidade total de livros");
             System.out.println("4 - Listar todos os livros");
+            System.out.println("5 - Listar todos os autores");
             System.out.println("0 - Sair");
             System.out.print("Escolha uma opcao: ");
 
@@ -99,6 +100,12 @@ public class ProjetoBiblioteca {
 
                     b1.listarLivros();//lista tods
 
+                    break;
+                    
+                    
+                case 5: 
+                    
+                    b1.listarAutoresPublicacoes();
                     break;
 
                 case 0://case de sair do sistema
