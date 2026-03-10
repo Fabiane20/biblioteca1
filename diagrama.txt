@@ -1,0 +1,29 @@
++---------------------------+
+|        Biblioteca         |
++---------------------------+
+| - nome : String           |
++---------------------------+
+| + addLivro(l : Livro)     |
+| + removerLivro(id : int)  |
+| + verificaTotalLivros()   |
++---------------------------+
+
++---------------------------+
+|           Livro           |
++---------------------------+
+| - id : int                |
+| - titulo : String         |
+| - categoria : ECategoria  |
+| - autor : String          |
+| - dataPublicacao : String |
++---------------------------+
+
+
+Enum da categoria (associado ao Livro)
+---------------------------
+DIDATICO
+INFANTIL
+FICCAO
+AUTO_AJUDA
+
+*Fiz o diagrama e pedi para o chatgpt organizar de forma mais visual
